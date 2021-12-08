@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style type="text/css">
+
+        .fundo{
+            background-color: #aaaaaa;
+        
+        }
+
+        .fundo2{
+            background-color:#444444
+        }
+
+
+        .letra{
+            font-family:Helvetica;
+            font-size:12pt;
+            color:white;
+            text-align:center;
+        }
+
+        .letral{
+            font-family:Britannic;
+            font-size:20pt;
+            color:white;
+            text-align:center;
+        }
+
+        .margem3{
+            margin-left:2px;
+        }
+
+        .letral2{
+            font-family:Britannic;
+            font-size:20pt;
+            color:black;
+            text-align:left;
+        }
+
+        .letral3{
+            font-family:Britannic;
+            font-size:25pt;
+            color:black;
+            text-align:center;
+        }
+
+        .borda{
+            border: 2px solid black;
+        }
+
+        .borda2{
+            border-bottom:4px solid;
+        }
+
+        .alinha{
+            width:150px;
+            margin-bottom:2px;
+            align-items:center;
+        }
+
+        .centro{
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:5pt;
+            justify-items:center;
+        }
+
+        .margem{
+            margin-bottom:2px;
+        }
+
+        .margem2{
+            margin:2px;
+        }
+
+        
+
+        .carousel-inner img{
+          width:80%;
+          height:80%;
+        }
+
+        .padding{
+            margin-top:10px;
+        }
+
+        .aaa{
+            width:90pt
+        }
+
+        
+        
+        </style>
+    </head>
+
+    <body>
+
+        <div class="row fundo2">
+            <div class="col-sm-12 borda letral"><p>Grand Order</p></div>
+        </div>
+
+        <!--Barra de navegação-->
+        <nav class="fundo menu borda bg-dark navbar-dark navbar navbar-expand-sm justify-content-center">
+        
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Site Bootstrap - João Guilherme Sabongi - Turma B.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Shows yey.html"> Shows </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Sobre </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contato YEY.html"> Vídeos </a>
+              </li>
+
+            </ul>
+        
+        </nav>
+            
+        <!--Imagens-->
+        <div class="">
+
+            <div class="row fundo">
+                <div class="col margem">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                            <ul class="carousel-indicators">
+                                <li data-target_="demo" data-slide-to="0" class="active" ></li>
+                                <li data-target_="demo" data-slide-to="1" class="active" ></li>
+                                <li data-target_="demo" data-slide-to="2" class="active" ></li>
+                            </ul>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="cant.png" class="d-block mx-auto" alt="Chicago">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="cant2.png" class="d-block mx-auto" alt="NY">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="show.png" class="d-block mx-auto" alt="LA">
+                            </div>
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span> 
+                            </a> 
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+            <div class="row fundo">
+                <div class="col-12"><p class="letral3">Sobre</p>
+                </div>
+                <div class="col-6"><p class="letral2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla ligula et bibendum finibus.
+                    Phasellus eu vestibulum leo. Nunc dignissim consequat odio, eget dapibus elit viverra at. Integer quis metus sit amet eros gravida accumsan. 
+                    Ut nec placerat turpis. Maecenas lacinia mauris id dictum lobortis. Nam facilisis enim a massa cursus, id elementum elit sagittis. 
+                    Donec convallis, leo in imperdiet blandit, augue dolor sodales nulla, quis euismod dui libero eget justo. Aliquam enim dui, 
+                    faucibus ut cursus eget, 
+                    facilisis quis dolor. Nunc suscipit vitae eros quis faucibus.</p>
+                </div>
+                <div class="col-6"><p class="letral2">Fusce id nisl sit amet sem laoreet efficitur eu nec nulla. 
+                    Nam in enim quis est dapibus placerat. Aliquam vitae ultrices ligula. Nunc feugiat diam vel mi posuere posuere.
+                    Mauris finibus dui metus, vitae fermentum neque consectetur sit amet. 
+                    Nam eget nunc eu elit cursus tristique eu sed mi.</p>
+                </div>
+            </div>
+                       
+            <!--Textos-->
+            <div class="row fundo2">
+                <div class="col-sm-12 borda letra"><p>2021 Grand Order | Privacy Policy</p></div>
+            </div>   
+
+        
+    </body>
+
+</html>
